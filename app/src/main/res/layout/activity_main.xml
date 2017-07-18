@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.dragtoactionlayoutdemo.view.DragToActionLayout
+        android:id="@+id/refresh_widget"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.example.dragtoactionlayoutdemo.view.DragToActionLayout>
+
+</RelativeLayout>
